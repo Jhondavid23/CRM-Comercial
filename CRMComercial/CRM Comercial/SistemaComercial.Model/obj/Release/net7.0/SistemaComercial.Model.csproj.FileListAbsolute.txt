@@ -1,0 +1,15 @@
+C:\Users\JuanDavidDiazOrozco\Documents\CRM Comercial\CRMComercial\CRM Comercial\SistemaComercial.Model\bin\Release\net7.0\SistemaComercial.Model.deps.json
+C:\Users\JuanDavidDiazOrozco\Documents\CRM Comercial\CRMComercial\CRM Comercial\SistemaComercial.Model\bin\Release\net7.0\SistemaComercial.Model.runtimeconfig.json
+C:\Users\JuanDavidDiazOrozco\Documents\CRM Comercial\CRMComercial\CRM Comercial\SistemaComercial.Model\bin\Release\net7.0\SistemaComercial.Model.dll
+C:\Users\JuanDavidDiazOrozco\Documents\CRM Comercial\CRMComercial\CRM Comercial\SistemaComercial.Model\bin\Release\net7.0\SistemaComercial.Model.pdb
+C:\Users\JuanDavidDiazOrozco\Documents\CRM Comercial\CRMComercial\CRM Comercial\SistemaComercial.Model\obj\Release\net7.0\SistemaComercial.Model.csproj.AssemblyReference.cache
+C:\Users\JuanDavidDiazOrozco\Documents\CRM Comercial\CRMComercial\CRM Comercial\SistemaComercial.Model\obj\Release\net7.0\SistemaComercial.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JuanDavidDiazOrozco\Documents\CRM Comercial\CRMComercial\CRM Comercial\SistemaComercial.Model\obj\Release\net7.0\SistemaComercial.Model.AssemblyInfoInputs.cache
+C:\Users\JuanDavidDiazOrozco\Documents\CRM Comercial\CRMComercial\CRM Comercial\SistemaComercial.Model\obj\Release\net7.0\SistemaComercial.Model.AssemblyInfo.cs
+C:\Users\JuanDavidDiazOrozco\Documents\CRM Comercial\CRMComercial\CRM Comercial\SistemaComercial.Model\obj\Release\net7.0\SistemaComercial.Model.csproj.CoreCompileInputs.cache
+C:\Users\JuanDavidDiazOrozco\Documents\CRM Comercial\CRMComercial\CRM Comercial\SistemaComercial.Model\obj\Release\net7.0\SistemaComercial.Model.sourcelink.json
+C:\Users\JuanDavidDiazOrozco\Documents\CRM Comercial\CRMComercial\CRM Comercial\SistemaComercial.Model\obj\Release\net7.0\SistemaComercial.Model.dll
+C:\Users\JuanDavidDiazOrozco\Documents\CRM Comercial\CRMComercial\CRM Comercial\SistemaComercial.Model\obj\Release\net7.0\refint\SistemaComercial.Model.dll
+C:\Users\JuanDavidDiazOrozco\Documents\CRM Comercial\CRMComercial\CRM Comercial\SistemaComercial.Model\obj\Release\net7.0\SistemaComercial.Model.pdb
+C:\Users\JuanDavidDiazOrozco\Documents\CRM Comercial\CRMComercial\CRM Comercial\SistemaComercial.Model\obj\Release\net7.0\SistemaComercial.Model.genruntimeconfig.cache
+C:\Users\JuanDavidDiazOrozco\Documents\CRM Comercial\CRMComercial\CRM Comercial\SistemaComercial.Model\obj\Release\net7.0\ref\SistemaComercial.Model.dll

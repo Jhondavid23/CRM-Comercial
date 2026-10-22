@@ -1,0 +1,13 @@
+C:\Users\JuanDavidDiazOrozco\Documents\CRM Comercial\CRMComercial\CRM Comercial\SistemaComercial.DTO\bin\Release\net7.0\SistemaComercial.DTO.deps.json
+C:\Users\JuanDavidDiazOrozco\Documents\CRM Comercial\CRMComercial\CRM Comercial\SistemaComercial.DTO\bin\Release\net7.0\SistemaComercial.DTO.dll
+C:\Users\JuanDavidDiazOrozco\Documents\CRM Comercial\CRMComercial\CRM Comercial\SistemaComercial.DTO\bin\Release\net7.0\SistemaComercial.DTO.pdb
+C:\Users\JuanDavidDiazOrozco\Documents\CRM Comercial\CRMComercial\CRM Comercial\SistemaComercial.DTO\obj\Release\net7.0\SistemaComercial.DTO.csproj.AssemblyReference.cache
+C:\Users\JuanDavidDiazOrozco\Documents\CRM Comercial\CRMComercial\CRM Comercial\SistemaComercial.DTO\obj\Release\net7.0\SistemaComercial.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JuanDavidDiazOrozco\Documents\CRM Comercial\CRMComercial\CRM Comercial\SistemaComercial.DTO\obj\Release\net7.0\SistemaComercial.DTO.AssemblyInfoInputs.cache
+C:\Users\JuanDavidDiazOrozco\Documents\CRM Comercial\CRMComercial\CRM Comercial\SistemaComercial.DTO\obj\Release\net7.0\SistemaComercial.DTO.AssemblyInfo.cs
+C:\Users\JuanDavidDiazOrozco\Documents\CRM Comercial\CRMComercial\CRM Comercial\SistemaComercial.DTO\obj\Release\net7.0\SistemaComercial.DTO.csproj.CoreCompileInputs.cache
+C:\Users\JuanDavidDiazOrozco\Documents\CRM Comercial\CRMComercial\CRM Comercial\SistemaComercial.DTO\obj\Release\net7.0\SistemaComercial.DTO.sourcelink.json
+C:\Users\JuanDavidDiazOrozco\Documents\CRM Comercial\CRMComercial\CRM Comercial\SistemaComercial.DTO\obj\Release\net7.0\SistemaComercial.DTO.dll
+C:\Users\JuanDavidDiazOrozco\Documents\CRM Comercial\CRMComercial\CRM Comercial\SistemaComercial.DTO\obj\Release\net7.0\refint\SistemaComercial.DTO.dll
+C:\Users\JuanDavidDiazOrozco\Documents\CRM Comercial\CRMComercial\CRM Comercial\SistemaComercial.DTO\obj\Release\net7.0\SistemaComercial.DTO.pdb
+C:\Users\JuanDavidDiazOrozco\Documents\CRM Comercial\CRMComercial\CRM Comercial\SistemaComercial.DTO\obj\Release\net7.0\ref\SistemaComercial.DTO.dll

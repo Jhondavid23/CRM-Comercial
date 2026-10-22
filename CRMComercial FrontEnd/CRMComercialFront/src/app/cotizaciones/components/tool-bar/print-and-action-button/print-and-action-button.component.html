@@ -1,0 +1,9 @@
+<button class="flex items-center justify-center p-2 border border-grisText rounded text-grisText"  [mat-menu-trigger-for]="menuPrint"><mat-icon class="icon-buttons py-0.5">print</mat-icon> <span class="ml-2 text-buttons">Imprimir</span></button>
+<button class="flex items-center justify-center p-2 ml-5 border border-grisText rounded text-grisText" [mat-menu-trigger-for]="menu" ><mat-icon class="icon-buttons py-0.5">settings</mat-icon> <span class="ml-2 text-buttons">Action</span></button>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item>Archivar Cotización</button>
+</mat-menu>
+<mat-menu #menuPrint="matMenu">
+  <button mat-menu-item (click)="printButton()">Cotización sencilla</button>
+  <button mat-menu-item>Cotización portafolio</button>
+</mat-menu>

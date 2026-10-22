@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SistemaComercial.DTO
+{
+    public class DashboardDTO
+    {
+        public int TotalCotizaciones { get; set; }
+        public string? TotalIngresos { get; set; }
+        public List<CotizacionDTO> CotizacionesUltimaSemana { get; set; }
+    }
+}

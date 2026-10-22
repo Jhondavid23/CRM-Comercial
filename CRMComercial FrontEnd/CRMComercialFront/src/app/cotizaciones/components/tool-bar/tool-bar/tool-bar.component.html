@@ -1,0 +1,19 @@
+  <section class="w-full h-44 grid grid-cols-1 sm:grid-cols-7 gap-2 p-5">
+  <article class="col-span-3">
+    <input class="mb-5 ml-5 text-grisText text-size bg-white" [(ngModel)]="title" [disabled]="!getDisabledState()" (ngModelChange)="setearNombre()" >
+    <div class=" flex flex-col flex-start ">
+        <crm-create-and-edit-button [typeButtons]="type" (createdClicked)="onCreatedClicked()"></crm-create-and-edit-button>
+    </div>
+  </article>
+  <article class="col-span-1">
+    @if(type === 2){
+      <crm-print-and-action-button class="flex flex-row justify-center items-end h-full"></crm-print-and-action-button>
+    }
+  </article>
+  <article class="col-span-3 ">
+    @if(type === 0){
+      <crm-search-bar (termBusqueda)="recibirValores($event)"></crm-search-bar>
+      <crm-filter-and-group-button></crm-filter-and-group-button>
+    }
+  </article>
+</section>

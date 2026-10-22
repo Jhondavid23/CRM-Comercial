@@ -1,0 +1,125 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using SistemaComercial.BLL.Servicios;
+using SistemaComercial.BLL.Servicios.Contrato;
+using SistemaComercial.BLL.Servicios_Tareas.Contrato;
+using SistemaComercial.DTO;
+using SistemaComercial.Utility;
+
+namespace CRM_Comercial.Controllers
+{
+    [ApiController]
+    [Route("api/[controller]")]
+    public class DetalleCotizacionController : ControllerBase
+    {
+        private readonly IDetalleCotizacionService _detalleCotizacionService;
+        private readonly IDetalleCotizacionLogica _detalleCotizacionLogica;
+        private readonly ICotizacionLogica _cotizacionLogic;
+
+        public DetalleCotizacionController(IDetalleCotizacionService detalleCotizacionService, IDetalleCotizacionLogica detalleCotizacionLogica, ICotizacionLogica cotizacionLogic)
+        {
+            _detalleCotizacionService = detalleCotizacionService;
+            _detalleCotizacionLogica = detalleCotizacionLogica;
+            _cotizacionLogic = cotizacionLogic;
+        }
+
+        [HttpGet("id")]
+        public async Task<IActionResult> ListarDetalles([FromQuery] int id)
+        {
+            Response response = new Response();
+            try
+            {
+                var cotizacionDetalleEncontrado = await _detalleCotizacionService.ListarDetallesCotizacion(id);
+                response.Success = true;
+                response.Message = "Ok";
+                response.Value = cotizacionDetalleEncontrado;
+                return Ok(response);
+            }
+            catch (Exception ex)
+            {
+                response.Success = false;
+                response.Message = ex.Message;
+                return BadRequest(response);
+            }
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> CrearDetalle([FromBody] DetalleCotizacionDTO detalle)
+        {
+            Response response = new Response();
+            try
+            {
+                var detalleCreado = await _detalleCotizacionLogica.CreateDetalleCotizacion  (detalle);
+                response.Success = true;
+                response.Message = "Ok";
+                response.Value = detalleCreado;
+                return Ok(response);
+            }
+            catch (Exception ex)
+            {
+                response.Success = false;
+                response.Message = ex.Message;
+                return BadRequest(response);
+            }
+        }
+
+        [HttpPost("valor")]
+        public async Task<IActionResult> CalcularDetalle([FromBody] DetalleCotizacionDTO detalle)
+        {
+            Response response = new Response();
+            try
+            {
+                var cotizacionDetalleValor = await _cotizacionLogic.CalculoDetalleCotizacion(detalle);
+                response.Success = true;
+                response.Message = "Ok";
+                response.Value = cotizacionDetalleValor;
+                return Ok(response);
+            }catch(Exception ex)
+            {
+                response.Success = false;
+                response.Message = ex.Message;
+                return BadRequest(response);
+            }
+        }
+
+
+        [HttpPut]
+        public async Task<IActionResult> EditarDetalle([FromBody] DetalleCotizacionDTO detalle)
+        {
+            Response response = new Response();
+            try
+            {
+                var detalleEditado = await _detalleCotizacionLogica.EditarDetalleCotizacion(detalle);
+                response.Success = true;
+                response.Message = "Ok";
+                response.Value = detalleEditado;
+                return Ok(response);
+            }
+            catch (Exception ex)
+            {
+                response.Success = false;
+                response.Message = ex.Message;
+                return BadRequest(response);
+            }
+        }
+
+        [HttpDelete]
+        public async Task<IActionResult> EliminarDetalle([FromQuery] int id)
+        {
+            Response response = new Response();
+            try
+            {
+                var detalleEliminado = await _detalleCotizacionLogica.EliminarDetalleCotizacionLogic(id);
+                response.Success = true;
+                response.Message = "Ok";
+                response.Value = detalleEliminado;
+                return Ok(response);
+            }
+            catch (Exception ex)
+            {
+                response.Success = false;
+                response.Message = ex.Message;
+                return BadRequest(response);
+            }
+        }
+    }
+}

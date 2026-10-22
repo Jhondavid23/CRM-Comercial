@@ -1,0 +1,28 @@
+
+<article>
+  <section>
+    <div>
+      <table class="table w-full h-6 rounded-sm text-center">
+        <thead>
+          <tr>
+            <th *ngFor="let column of displayedColumns">{{ column }}</th>
+          </tr>
+        </thead>
+        <tbody class="bg-gray-100">
+          <tr *ngFor="let element of dataSource; let i = index" (click)="onSelectDetail(element, i)" class="cursor-pointer hover:bg-gray-200">
+            <td>{{element.idServicioNavigation.nombre}}</td>
+            <td>{{element.detalleServicio}}</td>
+            <td>{{element.idSucursalNavigation.nombre}}</td>
+            <td>{{element.cantidadServicios}}</td>
+            <td>{{element.total | currency:'COP':'symbol-narrow':'1.2-2'}}</td>
+            <td>
+              <button (click)="onDeleteDetailCotizacion(element, i); $event.stopPropagation()" [disabled]="!disabledState">
+                <mat-icon [color]="disabledState ? 'warn' : 'gray'" >delete</mat-icon>
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+</article>
